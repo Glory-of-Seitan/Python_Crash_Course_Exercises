@@ -36,3 +36,8 @@ for times in range(cycles):
     print(message)
     n = n + 1
 # re-run loop for the new list of 6
+
+
+print(
+    "Dear all,\nUnfortunately, in a tragic turn of events, Taco Bell has had all their tables stolen in a rash of brazen thefts. They will only be able to provide stool and counter seating to myself and two guests. Those of you who are expendable will be receiving dis-invites shortly. Sorry for any inconvenience."
+)
