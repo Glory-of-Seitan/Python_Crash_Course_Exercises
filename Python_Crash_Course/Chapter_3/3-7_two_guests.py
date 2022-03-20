@@ -1,3 +1,6 @@
+from operator import index, indexOf
+
+
 guest_list = ["Hedy Lamarr", "Kelli Scheuble", "Carrie Fisher"]
 # define 'guest_list
 
@@ -39,5 +42,41 @@ for times in range(cycles):
 
 
 print(
-    "Dear all,\nUnfortunately, in a tragic turn of events, Taco Bell has had all their tables stolen in a rash of brazen thefts. They will only be able to provide stool and counter seating to myself and two guests. Those of you who are expendable will be receiving dis-invites shortly. Sorry for any inconvenience."
+    "\nDear all,\nUnfortunately, in a tragic turn of events, Taco Bell has had all their tables stolen in a rash of brazen thefts. They will only be able to provide stool and counter seating to myself and two guests. Those of you who are expendable will be receiving dis-invites shortly. Sorry for any inconvenience."
 )
+# tell guests they can't all come
+
+
+n = 0
+cycles = 4
+# set invitations to start at index[0]
+# set number of passes through the list. A better way to do this would be to set equal to the number of entries on the list
+
+weak_links = ["Hedy Lamarr", "Ilana Glazer", "Carrie Fisher", "Abbi Jacobsen"]
+    # define a list of guests to be uninvited
+
+for times in range(cycles):
+    # for loop that uninvites 4 people
+
+    weakest_link = weak_links.pop(0)
+    # pop the first value on 'weak_links' and set it to a variable
+
+    i = guest_list.index(weakest_link)
+
+    uninvited = guest_list.pop(i)
+    # use that variable to pop a specific guest on the guest list
+
+    message = f"\nDear {uninvited.title()}, I am sorry to inform you that you are the weakest link. Goodbye. there will be no tacos for you."
+    print(message)
+# tell the guest they are univited. Rudely.
+
+
+n = 0
+cycles = 2
+# set starting index and number of loops
+
+for times in range(cycles):
+    # for loop that re-invites the remaining 2 guests
+    message = f"\nDear {guest_list[n].title()}, \nYou are cordially invited to dinner tonight at the Taco Bell over by the Shell Gas station. Bring your finest evening attire and a fascinating story with which to regale us."
+    print(message)
+    n = n + 1
