@@ -53,7 +53,7 @@ cycles = 4
 # set number of passes through the list. A better way to do this would be to set equal to the number of entries on the list
 
 weak_links = ["Hedy Lamarr", "Ilana Glazer", "Carrie Fisher", "Abbi Jacobsen"]
-    # define a list of guests to be uninvited
+# define a list of guests to be uninvited
 
 for times in range(cycles):
     # for loop that uninvites 4 people
@@ -66,7 +66,7 @@ for times in range(cycles):
     uninvited = guest_list.pop(i)
     # use that variable to pop a specific guest on the guest list
 
-    message = f"\nDear {uninvited.title()}, I am sorry to inform you that you are the weakest link. Goodbye. there will be no tacos for you."
+    message = f"\nDear {uninvited.title()}, I am sorry to inform you that you are the weakest link. Goodbye. There will be no tacos for you."
     print(message)
 # tell the guest they are univited. Rudely.
 
@@ -80,3 +80,18 @@ for times in range(cycles):
     message = f"\nDear {guest_list[n].title()}, \nYou are cordially invited to dinner tonight at the Taco Bell over by the Shell Gas station. Bring your finest evening attire and a fascinating story with which to regale us."
     print(message)
     n = n + 1
+
+print(guest_list)
+# print 'guest list' for comparison
+
+del guest_list[0]
+# delete first entry on 'guest list'
+
+print(guest_list)
+# print the last remaining name
+
+del guest_list[0]
+# delete the first (and only) remaining entry on 'guest list'
+
+print(guest_list)
+# print to make sure 'guest list' is empty
