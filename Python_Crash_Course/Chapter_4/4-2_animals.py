@@ -7,7 +7,5 @@ for animal in animals:
     )
 #for loop that prints the sentence for each animal on the list
 
-print(
-    "\nIt turns out that while large, predatory animals have a place in this world, it is probably not in local government.\nPlease be careful who you vote for.\n"
-)
+print("\nIt turns out that while large, predatory animals have a place in this world, it is probably not in local government.\nPlease be careful who you vote for.\n")
 #print a warning after the loop finishes

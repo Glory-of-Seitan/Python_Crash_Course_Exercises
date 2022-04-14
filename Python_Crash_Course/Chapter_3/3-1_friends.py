@@ -1,4 +1,9 @@
-friends = ["Radish", "Abbi", "Karin", "Chris", "David"]
+friends = [
+        "Radish", 
+        "Abbi", 
+        "Karin", 
+        "Chris", 
+        "David"]
 # store friends names in a list
 
 message = "These are some of my friend's first names:"

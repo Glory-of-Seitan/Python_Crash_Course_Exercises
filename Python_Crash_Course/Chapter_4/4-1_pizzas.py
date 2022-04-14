@@ -9,4 +9,5 @@ for pizza in pizzas:
 #loop that thanks someone for buying every pizza on list 'pizzas'
 
 print("\nIf it weren't for pizza... the world would be infinitely more sad.\n")
-#message philosophizing about the stabilizing role of pizza in an otherwise confusing and uncertain existence
+#message philosophizing about the stabilizing role of pizza in an 
+# otherwise confusing and uncertain existence
