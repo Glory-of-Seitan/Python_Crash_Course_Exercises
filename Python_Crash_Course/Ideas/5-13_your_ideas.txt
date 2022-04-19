@@ -1,0 +1,21 @@
+Ideas for Programs
+
+    1. Automate my Logseq and Obsidian notes
+        A. upon closing program
+            1. git add
+            2. git commit
+            3. git push
+        B. upon opening program
+            1. git pull
+
+    2. A web application that takes you to a random D&D monster
+        A. could be given a CR range
+        B. could roll a d20 to determine how helpful/cursed said
+           monster
+    
+    3. A web application that takes you to random interesting facts
+       or places or podcasts or information. Like atlas obscura type
+       stuff. Chance for cursed items. No overdone memes. 
+
+    4. Make that D&D-styled RPG using public assets (or Radish art?)
+       with your own story/writing. Unreal engine?
