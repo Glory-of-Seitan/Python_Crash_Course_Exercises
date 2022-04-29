@@ -7,12 +7,12 @@ friend_numbers = {
     "kelli": 100,
     "abbi": 88,
     "David": 2,
-    "Fin": 1
+    "Fin": 1,
 }
 
-#print the dictionary 'friend_numbers'
+# print the dictionary 'friend_numbers'
 print(friend_numbers)
 
 # for loop that prints 'friend_numbers' in a much nicer way
 for i in friend_numbers:
-    print(i, friend_numbers[i])
+    print(f"{i.title()}'s favorite number is {friend_numbers[i]}")

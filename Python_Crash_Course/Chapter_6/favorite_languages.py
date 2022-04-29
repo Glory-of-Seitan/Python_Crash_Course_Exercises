@@ -6,9 +6,9 @@ favorite_languages = {
     "phil": "python",
 }
 
-# print sarah's favorite language
-# language = favorite_languages["sarah"].title()
-# print(f"Sarah's favorite programming language is {language}.")
+#print sarah's favorite language
+language = favorite_languages["sarah"].title()
+print(f"Sarah's favorite programming language is {language}.")
 
 
 ### ITERATING OVER THE DICTIONARY ###
