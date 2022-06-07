@@ -29,9 +29,12 @@ lott_balls = possible_values[:]
 # these are to be averaged
 total_draws_on_wins = []
 
+#set the number of times to wait for my_ticket to win
+total_attempts = 100
+
 # for loop that will pop() a random value from lott_balls and
 # append it to the list of winners. this happens 4 times
-for time in range(0, 100):
+for time in range(0, total_attempts):
     # set total draws to 0
     total_draws = 0
     winners = []
@@ -58,6 +61,6 @@ for time in range(0, 100):
 total_average = mean(total_draws_on_wins)
 print(total_draws_on_wins)
 print(
-    f"\nOn average, over 100 attempts, it took {total_average} rounds "
+    f"\nOn average, over {total_attempts} attempts, it took {total_average} rounds "
     f"for your chosen ticket to be the winner each time."
 )
