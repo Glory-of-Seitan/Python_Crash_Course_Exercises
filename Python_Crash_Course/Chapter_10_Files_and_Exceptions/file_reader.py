@@ -14,3 +14,9 @@ filename = "pi_digits.txt"
 with open(f"python_crash_course/txt_files/{filename}") as file_object:
     for line in file_object:
         print(line.rstrip())
+
+
+with open("Python_Crash_Course/txt_files/pi_digits.txt") as file_object:
+    lines = file_object.readlines()
+for line in lines:
+    print(f"{line.rstrip()}")
