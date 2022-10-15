@@ -89,3 +89,4 @@ class Privileges:
 god = Admin("god", "john", "c", "12345", 1)
 print(vars(god))
 god.privileges.show_privileges()
+god.greet_user()

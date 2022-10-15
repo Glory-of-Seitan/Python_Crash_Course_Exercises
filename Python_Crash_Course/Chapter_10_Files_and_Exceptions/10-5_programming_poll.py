@@ -7,5 +7,6 @@ while True:
     if reason.lower() == 'quit':
         break
     else:
-        with open(f'python_crash_course/txt_files/{filename}', 'a') as file_object:
+        with open(f'Python_Crash_Course_MAIN/Python_Crash_Course_Exercises/Python_Crash_Course/txt_files/{filename}', 'a') as file_object:
             file_object.write(f"\n{reason}")
+
