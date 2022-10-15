@@ -1,0 +1,15 @@
+In Python you can make lists, dictionaries, tuples, sets, etc store complicated
+information and then manipulate that information faster than a million chimpanzees
+in a library all acting in perfect unison.
+
+In Python you can have a loop that iterates over every object in a set of data
+and it can happen in seconds.
+
+In Python you automate complex interactions of data and variables. You can put
+everything into a function and save it to be used later throughout your
+programs.
+
+In Python you can define real-world objects or complicated ideas using classes.
+You can make subclasses based off of those classes and then instantiate as
+many objects of the class as you want without having to rewrite much of the
+code. This can save you a lot of time if done efficiently. 
