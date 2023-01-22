@@ -1,4 +1,4 @@
-with open("Python_Crash_Course/txt_files/pi_digits.txt") as file_object:
+with open("Python_Crash_Course_MAIN/txt_files/pi_digits.txt") as file_object:
     contents = file_object.read()
 print(f"\n{contents.rstrip()}")
 
