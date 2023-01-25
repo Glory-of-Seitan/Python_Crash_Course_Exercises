@@ -40,3 +40,8 @@ class Battery:
             self.battery_size = 100
         elif self.battery_size == 100:
             print("This battery cannot be upgraded! It is already top of the line.")
+
+
+my_car = ElectricCar(make = 'tesla', model = 'roadster', year = '1995')
+print(my_car.odometer_reading)
+print(my_car.make, my_car.model, my_car.year)
