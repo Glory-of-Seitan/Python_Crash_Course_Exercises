@@ -3,3 +3,4 @@ Reasons why programming is fun:
 It gives us the power to do things we otherwise wouldn't be able to do.
 It's fun... when you can get things to work as intended.
 being creative
+It is power
